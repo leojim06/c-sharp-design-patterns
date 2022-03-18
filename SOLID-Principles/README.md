@@ -20,3 +20,7 @@ Aplicar estos principios facilitará mucho el trabajo, tanto propio como ajeno (
 * Favorece una mayor reusabilidad y calidad del código, así como la encapsulación
 
 Vamos a ver en detalle cada uno de estos principios, junto a ejemplos básicos, que, a pesar de no ser aplicables en el mundo real, espero que aporten la suficiente claridad para que seas capaz de entender y aplicar estos principios en tus desarrollos.
+
+## S: Single responsibility principle (SRP)
+
+Cada modulo de software o clase debe tener solo una razón para cambiar. Lo que quiere decir que cada modulo o clase debe tener solo una única responsabilidad
