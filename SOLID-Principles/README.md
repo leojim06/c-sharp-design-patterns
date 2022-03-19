@@ -28,3 +28,11 @@ Cada modulo de software o clase debe tener solo una razón para cambiar. Lo que 
 ## O: Open/closed principle (OCP)
 
 Componentes de software como modulos, clases, funciones, etc. deben estar abiertas para la extension, pero cerradas para la modificacion
+
+## L: Liskov substitution principle
+
+Este principio indica que, si S es un subtipo de T, entonces objetos de tipo T deben ser reemplacables por objetos de tipo S.
+
+En simples palabras, cuando tenemos relacion entre una clase base y subclases hijas, por ejemplo una relacion de herencia, entonces, si podemos reemplazar de forma exitosa un objeto o instancia de la clase padre con un objeto o instancia de una de sus clases hijas, sin afectar el comportamiento de la instancia de la clase base, entonces podemos decir que cumple el principio de sustitucion de Liskov.
+
+Ejemplo de la vida real. Si un padre de familia es profesor mientras que su hijo es un doctor. En este caso, el hijo no puede reemplazar la funcion de su padre incluso cuando son de la misma familia.
