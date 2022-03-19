@@ -24,3 +24,7 @@ Vamos a ver en detalle cada uno de estos principios, junto a ejemplos básicos, 
 ## S: Single responsibility principle (SRP)
 
 Cada modulo de software o clase debe tener solo una razón para cambiar. Lo que quiere decir que cada modulo o clase debe tener solo una única responsabilidad
+
+## O: Open/closed principle (OCP)
+
+Componentes de software como modulos, clases, funciones, etc. deben estar abiertas para la extension, pero cerradas para la modificacion
