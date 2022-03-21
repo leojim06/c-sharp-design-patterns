@@ -5,8 +5,8 @@ namespace Documentos.Clases
 {
     public class Documento : IImprimible
     {
-        private readonly DateTime _fecha;
-        private readonly int _numero;
+        protected readonly DateTime _fecha;
+        protected readonly int _numero;
 
         public Documento()
         {
@@ -21,7 +21,7 @@ namespace Documentos.Clases
             return numero;
         }
 
-        public void Imprimir()
+        public virtual void Imprimir()
         {
             Console.WriteLine($"Imprimiendo documento No. {_numero} con fecha {_fecha}");
         }

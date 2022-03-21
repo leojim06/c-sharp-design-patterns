@@ -1,7 +1,14 @@
-﻿namespace Documentos.Clases
+﻿using System;
+
+namespace Documentos.Clases
 {
-    public class Factura
+    public class Factura : Documento
     {
-        public void Imprimir() { }
+        public Factura() : base() { }
+        
+        public override void Imprimir()
+        {
+            Console.WriteLine($"Imprimiendo factura No. {_numero} con fecha {_fecha}");
+        }
     }
 }

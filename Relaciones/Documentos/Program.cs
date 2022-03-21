@@ -12,6 +12,12 @@ namespace Documentos
             Documento doc = new Documento();
             doc.Imprimir();
 
+            Factura docFactura = new Factura();
+            docFactura.Imprimir();
+
+            NotaCredito docNotaCredito = new NotaCredito();
+            docNotaCredito.Imprimir();
+
             Console.ReadKey();
         }
     }
