@@ -14,3 +14,4 @@ Este ejercicio se puede seguir pasa a paso viajando a través de las siguientes 
 4. Relación de generalización - ()
 5. Relación de agregación - ()
 6. Relación de composición - ()
+7. Relación de asociación - ()

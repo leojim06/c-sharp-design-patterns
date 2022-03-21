@@ -12,6 +12,8 @@ namespace Documentos.Clases
         protected readonly Cliente _cliente;
         private readonly List<Item> _items;
 
+        public Sucursal Sucursal { get; set; }
+
         public Documento(Cliente cliente)
         {
             if (cliente == null)
