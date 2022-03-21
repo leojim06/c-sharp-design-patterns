@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Documentos.Clases;
+using System;
 
 namespace Documentos
 {
@@ -6,7 +7,12 @@ namespace Documentos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Iniciando programa");
+
+            Documento doc = new Documento();
+            doc.Imprimir();
+
+            Console.ReadKey();
         }
     }
 }
