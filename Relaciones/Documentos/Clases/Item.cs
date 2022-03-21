@@ -2,8 +2,15 @@
 {
     public class Item
     {
-        private string _descripcion;
-        private double _precio;
-        private int _cantidad;
+        private readonly string _descripcion;
+        private readonly double _precio;
+        private readonly int _cantidad;
+
+        public Item(string descripcion, double precio, int cantidad)
+        {
+            _descripcion = descripcion;
+            _precio = precio;
+            _cantidad = cantidad;
+        }
     }
 }

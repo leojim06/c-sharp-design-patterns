@@ -1,5 +1,6 @@
 ﻿using Documentos.Interfaces;
 using System;
+using System.Collections.Generic;
 
 namespace Documentos.Clases
 {
@@ -9,6 +10,7 @@ namespace Documentos.Clases
         protected readonly int _numero;
 
         protected readonly Cliente _cliente;
+        private readonly List<Item> _items;
 
         public Documento(Cliente cliente)
         {
@@ -17,6 +19,7 @@ namespace Documentos.Clases
             _cliente = cliente;
             _fecha = DateTime.Now;
             _numero = GenerarNumeroDocumento();
+            _items = new List<Item>();
         }
 
         private int GenerarNumeroDocumento()
@@ -32,6 +35,14 @@ namespace Documentos.Clases
             Console.WriteLine($"Imprimiendo documento No. {_numero} con fecha {_fecha}");
         }
 
-        public void AgregarItem(Item item) { }
+        public void AgregarItem(string descripcion, double precio, int cantidad)
+        {
+            Item nuevoItem = new Item(
+                descripcion: descripcion,
+                precio: precio,
+                cantidad: cantidad);
+
+            _items.Add(nuevoItem);
+        }
     }
 }

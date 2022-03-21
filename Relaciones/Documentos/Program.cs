@@ -13,6 +13,8 @@ namespace Documentos
             cliente.Presentarse();
 
             Documento doc = new Documento(cliente);
+            doc.AgregarItem("Dado", 12.50, 10);
+            doc.AgregarItem("Regla", 5.20, 1);
             doc.Imprimir();
 
             Documento docFactura = new Factura(cliente);
