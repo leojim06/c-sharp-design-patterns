@@ -12,3 +12,4 @@ Este ejercicio se puede seguir pasa a paso viajando a través de las siguientes 
 2. Generación de todas las clases e interfaces - ()
 3. Relación de realización - ()
 4. Relación de generalización - ()
+5. Relación de agregación - ()

@@ -8,10 +8,15 @@ namespace Documentos.Clases
         protected readonly DateTime _fecha;
         protected readonly int _numero;
 
-        public Documento()
+        protected readonly Cliente _cliente;
+
+        public Documento(Cliente cliente)
         {
-            this._fecha = DateTime.Now;
-            this._numero = GenerarNumeroDocumento();
+            if (cliente == null)
+                throw new ArgumentNullException($"{nameof(cliente)} no puede ser null");
+            _cliente = cliente;
+            _fecha = DateTime.Now;
+            _numero = GenerarNumeroDocumento();
         }
 
         private int GenerarNumeroDocumento()
@@ -23,9 +28,10 @@ namespace Documentos.Clases
 
         public virtual void Imprimir()
         {
+            Console.WriteLine($"Documento para: {this._cliente.Presentarse()}");
             Console.WriteLine($"Imprimiendo documento No. {_numero} con fecha {_fecha}");
         }
 
-        public void AgregarItem(Item item) { } 
+        public void AgregarItem(Item item) { }
     }
 }

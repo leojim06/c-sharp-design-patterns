@@ -9,13 +9,16 @@ namespace Documentos
         {
             Console.WriteLine("Iniciando programa");
 
-            Documento doc = new Documento();
+            Cliente cliente = new Cliente(nombre: "Ernesto", apellido: "Perez");
+            cliente.Presentarse();
+
+            Documento doc = new Documento(cliente);
             doc.Imprimir();
 
-            Factura docFactura = new Factura();
+            Documento docFactura = new Factura(cliente);
             docFactura.Imprimir();
 
-            NotaCredito docNotaCredito = new NotaCredito();
+            Documento docNotaCredito = new NotaCredito(cliente);
             docNotaCredito.Imprimir();
 
             Console.ReadKey();
