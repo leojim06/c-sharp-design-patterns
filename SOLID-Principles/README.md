@@ -41,6 +41,6 @@ Ejemplo de la vida real. Si un padre de familia es profesor mientras que su hijo
 
 Los clientes no deben ser forzados a implementar ningun metodo que ellos no usen. En lugar de una interfaz muy grande, muchas interfaces pequeñas son mejores, basadas en grupos de metodos para que cada interface sirva a un submodulo
 
-## D: Dependency inversion principle
+## D: Dependency inversion principle (DIP)
 
 Este principio indica que modulos o clases de alto nivel no deben depender de modulos o clases de bajo nivel. Ambos deben depender de abstracciones. En segundo lugar, las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
