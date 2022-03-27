@@ -14,11 +14,12 @@ namespace Builder.Contracts
 
         public Contract GetContract()
         {
-            return _contract;
+            Contract newContract = _contract;
+            return newContract;
         }
 
-        public abstract void SetContractHolder(Person contractHolder);
-        public abstract void AddContractBeneficiaries(IList<Person> beneficiaries);
-        public abstract void AddBenefits();
+        public abstract ContractBuilder SetContractHolder(Person contractHolder);
+        public abstract ContractBuilder AddContractBeneficiaries(IList<Person> beneficiaries);
+        public abstract ContractBuilder AddBenefits();
     }
 }

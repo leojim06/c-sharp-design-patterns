@@ -35,6 +35,8 @@ namespace Builder
             //ContractDirector directorLight = new ContractDirector(contractBuilder);
 
             //Contract contractLight = directorLight.GenerateLightContract(contractHolder);
+
+            //Console.WriteLine(contractLight.ToString());
         }
     }
 }

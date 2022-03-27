@@ -17,11 +17,16 @@ namespace Builder
 
         public Contract GenerateContract(Person contractHolder, IList<Person> beneficiaries)
         {
-            _contractBuilder.SetContractHolder(contractHolder);
-            _contractBuilder.AddContractBeneficiaries(beneficiaries);
-            _contractBuilder.AddBenefits();
+            //_contractBuilder.SetContractHolder(contractHolder);
+            //_contractBuilder.AddContractBeneficiaries(beneficiaries);
+            //_contractBuilder.AddBenefits();
 
-            return _contractBuilder.GetContract();
+            return _contractBuilder.SetContractHolder(contractHolder)
+                .AddContractBeneficiaries(beneficiaries)
+                .AddBenefits()
+                .GetContract();
+
+            //return _contractBuilder.GetContract();
         }
 
         public Contract GenerateLightContract(Person contractHolder)

@@ -27,15 +27,21 @@ namespace Builder.Entities
             sb.Append("Reporte del contrato:\n\n");
             sb.Append("Este contrato está activo desde " + StartDate.ToLongDateString() + " hasta " + EndDate.ToLongDateString() + "\n");
             sb.Append("Titular del contrato: " + ContractHolder.ToString() + "\n");
-            sb.Append("Beneficiarios del contrato:\n");
-            foreach(Person p in Beneficiaries)
+            if (Beneficiaries != null)
             {
-                sb.Append(" - " + p.ToString() + "\n");
+                sb.Append("Beneficiarios del contrato:\n");
+                foreach (Person p in Beneficiaries)
+                {
+                    sb.Append(" - " + p.ToString() + "\n");
+                }
             }
-            sb.Append("\nBeneficios del contrato:\n");
-            foreach(Benefits b in Benefits)
+            if (Benefits != null)
             {
-                sb.Append(" - " + b.ToString()+ "\n");
+                sb.Append("\nBeneficios del contrato:\n");
+                foreach (Benefits b in Benefits)
+                {
+                    sb.Append(" - " + b.ToString() + "\n");
+                }
             }
 
             return sb.ToString();
