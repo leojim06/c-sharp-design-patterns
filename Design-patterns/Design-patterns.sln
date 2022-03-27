@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural-patterns", "Structural-patterns", "{2A547C58-05D9-4743-9925-40444FB04E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{A5C89C93-A412-475F-9887-3008C14319CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Structural-patterns\Proxy\Proxy\Proxy.csproj", "{C8A8BEF9-B932-43CE-B71C-B55EC8C1B583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseDumy", "Structural-patterns\Proxy\FirebaseDumy\FirebaseDumy.csproj", "{BB783AE8-0637-4B20-AC46-C936EC570BFF}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational-patterns", "Creational-patterns", "{EB8EDBB8-AAE9-467C-84BB-BA85BF8FE3E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{2EC315A5-9161-4B3E-B2F2-580F3A5D45A6}"
@@ -15,6 +22,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8A8BEF9-B932-43CE-B71C-B55EC8C1B583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A8BEF9-B932-43CE-B71C-B55EC8C1B583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A8BEF9-B932-43CE-B71C-B55EC8C1B583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A8BEF9-B932-43CE-B71C-B55EC8C1B583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB783AE8-0637-4B20-AC46-C936EC570BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB783AE8-0637-4B20-AC46-C936EC570BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB783AE8-0637-4B20-AC46-C936EC570BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB783AE8-0637-4B20-AC46-C936EC570BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA5C505A-ED6B-4F7D-BDC0-BE95C48D5F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA5C505A-ED6B-4F7D-BDC0-BE95C48D5F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5C505A-ED6B-4F7D-BDC0-BE95C48D5F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,6 +39,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{A5C89C93-A412-475F-9887-3008C14319CD} = {2A547C58-05D9-4743-9925-40444FB04E36}
+		{C8A8BEF9-B932-43CE-B71C-B55EC8C1B583} = {A5C89C93-A412-475F-9887-3008C14319CD}
+		{BB783AE8-0637-4B20-AC46-C936EC570BFF} = {A5C89C93-A412-475F-9887-3008C14319CD}
 		{2EC315A5-9161-4B3E-B2F2-580F3A5D45A6} = {EB8EDBB8-AAE9-467C-84BB-BA85BF8FE3E5}
 		{AA5C505A-ED6B-4F7D-BDC0-BE95C48D5F46} = {2EC315A5-9161-4B3E-B2F2-580F3A5D45A6}
 	EndGlobalSection
