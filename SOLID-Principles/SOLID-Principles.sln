@@ -25,19 +25,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LspConsoleApp", "SOLID-Prin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISP", "ISP", "{D7E1D09A-0F65-472E-A13C-AEF42A7653F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspConsoleApp", "SOLID-Principles\ISP\IspConsoleApp\IspConsoleApp.csproj", "{2871C73F-45F6-4C9F-BFD8-73F8C14FDD3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IspConsoleApp", "SOLID-Principles\ISP\IspConsoleApp\IspConsoleApp.csproj", "{2871C73F-45F6-4C9F-BFD8-73F8C14FDD3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspMalaPractica", "SOLID-Principles\ISP\IspMalaPractica\IspMalaPractica.csproj", "{1E9E176B-5B43-4C47-BE8D-7BB62C1E6368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IspMalaPractica", "SOLID-Principles\ISP\IspMalaPractica\IspMalaPractica.csproj", "{1E9E176B-5B43-4C47-BE8D-7BB62C1E6368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspModificado", "SOLID-Principles\ISP\IspModificado\IspModificado.csproj", "{82D140F7-414D-4F08-81C9-63EFB75E71EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IspModificado", "SOLID-Principles\ISP\IspModificado\IspModificado.csproj", "{82D140F7-414D-4F08-81C9-63EFB75E71EF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DIP", "DIP", "{34C79598-53BF-48DC-AD8F-9D4951BD664F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipConsoleApp", "SOLID-Principles\DIP\DipConsoleApp\DipConsoleApp.csproj", "{CEA3DB48-6B4A-4B0C-92E1-54FE587CDAD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DipConsoleApp", "SOLID-Principles\DIP\DipConsoleApp\DipConsoleApp.csproj", "{CEA3DB48-6B4A-4B0C-92E1-54FE587CDAD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipMalaPractica", "SOLID-Principles\DIP\DipMalaPractica\DipMalaPractica.csproj", "{FB51951A-2873-4A94-AAE6-50F59BDD212A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DipMalaPractica", "SOLID-Principles\DIP\DipMalaPractica\DipMalaPractica.csproj", "{FB51951A-2873-4A94-AAE6-50F59BDD212A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipModificado", "SOLID-Principles\DIP\DipModificado\DipModificado.csproj", "{6E8088E7-CEBE-4C17-A502-0A302C80D854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DipModificado", "SOLID-Principles\DIP\DipModificado\DipModificado.csproj", "{6E8088E7-CEBE-4C17-A502-0A302C80D854}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{7D984CD3-8481-46E3-A428-A67F53C10A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSystem", "SOLID-Principles\SOLID\ConsoleApp1\OrderSystem.csproj", "{218EE7C8-B248-4B5E-9F41-AA0C4854477E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,10 @@ Global
 		{6E8088E7-CEBE-4C17-A502-0A302C80D854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E8088E7-CEBE-4C17-A502-0A302C80D854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E8088E7-CEBE-4C17-A502-0A302C80D854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218EE7C8-B248-4B5E-9F41-AA0C4854477E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218EE7C8-B248-4B5E-9F41-AA0C4854477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218EE7C8-B248-4B5E-9F41-AA0C4854477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218EE7C8-B248-4B5E-9F41-AA0C4854477E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +123,7 @@ Global
 		{CEA3DB48-6B4A-4B0C-92E1-54FE587CDAD7} = {34C79598-53BF-48DC-AD8F-9D4951BD664F}
 		{FB51951A-2873-4A94-AAE6-50F59BDD212A} = {34C79598-53BF-48DC-AD8F-9D4951BD664F}
 		{6E8088E7-CEBE-4C17-A502-0A302C80D854} = {34C79598-53BF-48DC-AD8F-9D4951BD664F}
+		{218EE7C8-B248-4B5E-9F41-AA0C4854477E} = {7D984CD3-8481-46E3-A428-A67F53C10A68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CEF8187-E453-40F4-86AE-BA746CEB5B28}
