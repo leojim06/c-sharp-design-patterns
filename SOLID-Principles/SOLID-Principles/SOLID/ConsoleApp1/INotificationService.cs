@@ -4,12 +4,12 @@ namespace OrderSystem
 {
     public interface INotificationService
     {
-        bool EmailInvoice(Invoice invoice);
+        bool NotifyInvoice(Invoice invoice);
     }
 
-    public class NotificationService : INotificationService
+    public class EmailService : INotificationService
     {
-        public bool EmailInvoice(Invoice invoice)
+        public bool NotifyInvoice(Invoice invoice)
         {
             //Code to email Invoice
             return true;

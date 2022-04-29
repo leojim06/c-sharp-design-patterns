@@ -9,9 +9,9 @@ namespace OrderSystem
         void Error(string message, Exception exception);
     }
 
-    public class LoggerService : ILoggerService
+    public class LoggerDataBaseService : ILoggerService
     {
-        public LoggerService()
+        public LoggerDataBaseService()
         {
             // here we need to write the code for initialization
             // that is creating the log file with necessary details

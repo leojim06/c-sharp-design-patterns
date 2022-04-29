@@ -7,7 +7,7 @@ namespace OrderSystem
         bool InsertOrder(Order order);
     }
 
-    public class OrderRepository : IOrderRepository
+    public class OrderDataBaseRepository : IOrderRepository
     {
         public bool InsertOrder(Order order)
         {

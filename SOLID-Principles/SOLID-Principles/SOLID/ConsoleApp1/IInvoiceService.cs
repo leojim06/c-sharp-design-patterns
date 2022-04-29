@@ -7,7 +7,7 @@ namespace OrderSystem
         Invoice CreateInvoice(Order order);
     }
 
-    public class InvoiceService : IInvoiceService
+    public class InvoiceDataBaseService : IInvoiceService
     {
         public Invoice CreateInvoice(Order order)
         {

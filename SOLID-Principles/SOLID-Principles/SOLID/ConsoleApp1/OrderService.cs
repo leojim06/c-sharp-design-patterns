@@ -29,7 +29,7 @@ namespace OrderSystem
 
                 Invoice invoice = _invoiceService.CreateInvoice(order);
 
-                _notificationService.EmailInvoice(invoice);
+                _notificationService.NotifyInvoice(invoice);
 
                 _loggerService.Info("The order has been complete");
             }
