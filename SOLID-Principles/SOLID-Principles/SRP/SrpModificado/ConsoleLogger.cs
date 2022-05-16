@@ -31,4 +31,22 @@ namespace SrpModificado
             Console.WriteLine(message);
         }
     }
+
+    public class BaseDatosLoger : ILogger
+    {
+        public void Debug(string message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Error(string message, Exception ex)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Info(string message)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

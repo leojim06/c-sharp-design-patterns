@@ -21,14 +21,17 @@ namespace LspConsoleApp
         {
             ManzanaSinLsp manzana = new NaranjaSinLsp();
             Console.WriteLine(manzana.ObtenerColor());
+
+
         }
 
         private static void ObtenerFrutaConLSP()
         {
-            Fruta fruta = new Naranja();
+            Fruta fruta //t
+                = new Naranja(); //s
             Console.WriteLine(fruta.ObtenerColor());
 
-            fruta = new Manzana();
+            fruta = new Manzana(); //s
             Console.WriteLine(fruta.ObtenerColor());
         }
     }

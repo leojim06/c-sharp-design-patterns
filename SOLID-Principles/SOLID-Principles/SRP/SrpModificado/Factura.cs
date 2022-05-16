@@ -11,7 +11,7 @@ namespace SrpModificado
 
         public Factura()
         {
-            logger = new ConsoleLogger();
+            logger = new BaseDatosLoger();
         }
 
         public void AgregarFactura()

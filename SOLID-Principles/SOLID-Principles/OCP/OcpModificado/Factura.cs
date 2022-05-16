@@ -23,4 +23,11 @@
             return base.ObtenerDescuentoFactura(cantidad) - 50;
         }
     }
+
+    public class FacturaRecurrente : Factura
+    {
+        public override double ObtenerDescuentoFactura(double cantidad)
+        {
+            return base.ObtenerDescuentoFactura(cantidad) - 25;
+        }
 }
